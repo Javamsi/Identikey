@@ -1,0 +1,332 @@
+/* COLOUR REFERENCES 
+	
+	Green: #79b044
+	Salmon: #dd5638
+	Blue Gray: #3e4249
+	
+*/
+
+/* === GENERAL ==== */
+
+body {
+	margin-top: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	background: url('../img/tile.jpg') top left repeat;
+	
+}
+/* === NAVBAR === */
+.navbar-default {
+  background-color: #eee7e1;
+  border-color: #ac2600;
+}
+.navbar-default .navbar-brand {
+  color: #e17c1c;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #db5829;
+}
+.navbar-default .navbar-text {
+  color: #e17c1c;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #e17c1c;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #db5829;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #db5829;
+  background-color: #ac2600;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #db5829;
+  background-color: #ac2600;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ac2600;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ac2600;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e17c1c;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e17c1c;
+}
+.navbar-default .navbar-link {
+  color: #e17c1c;
+}
+.navbar-default .navbar-link:hover {
+  color: #db5829;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #e17c1c;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #db5829;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #db5829;
+    background-color: #ac2600;
+  }
+}
+
+/* === GLOBAL ===*/
+
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h1,h2 {
+	margin: 0 0 40px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: white;
+}
+
+.btn {
+	font-weight: bold;
+}
+
+.btn-danger {
+	background-color: black;
+	border-collapse: #d95131;
+}
+
+img {
+	max-width: 100%;
+}
+
+button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: black;
+}
+
+.btn {
+	font-weight: bold;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-success {
+	background: #79b044;
+	border: none;
+}
+
+.btn-success:hover {
+	background: #6a9b3d;
+	border-color: #6a9b3d;
+}
+
+.btn-danger {
+	background-color: #dd5638;
+	border-color: #d95131;
+}
+
+.text-danger, li.text-danger a {
+	color: #dd5638;
+}
+
+a.text-danger:hover {
+	color: #e55939;
+}
+
+.modal-content{
+	background: url('../img/tile.jpg') top left repeat;
+}
+
+.badge.social {
+	background: #ccc;
+	font-size: 24px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 42px;
+	margin: 0 5px 20px 0;
+	padding: 0;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	color: white;
+}
+
+.badge.social.twitter:hover {
+	background: #55acee;
+}
+
+.badge.social.facebook:hover {
+	background: #3b5998;
+}
+
+.badge.social.gplus:hover {
+	background: #db4b39;
+}
+/* === HERO === */
+
+#hero {
+	background: rgba(123, 70, 15, 0.76);
+	min-height: 500px;
+	padding: 40px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+#hero article {
+	width: 100%;
+	text-align: center;
+}
+
+#hero .hero-text{
+	margin-top: 30px;
+}
+
+#price-timeline {
+	margin: 30px 0 60px;
+	text-align:  center;
+}
+
+#price-timeline .price {
+	display: inline-block;
+	margin: 0 2% 0 0;
+	width: 30%;
+	background: #3e4249;
+	padding: 10px 20px 30px;
+	position: relative;
+	vertical-align: top;
+}
+
+#price-timeline .price.active {
+	background: black;
+}
+
+#price-timeline .price span {
+	background: #101010;
+	display: block;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 24px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	margin-left: -35px;
+}
+
+#price-timeline h4 {
+	margin: 0 0 10px;
+}
+
+#price-timeline h4 small {
+	color: white;
+	font-weight: bold;
+	display: block;
+}
+
+/* === LAYOUT === */
+
+section {
+	padding: 80px 0;
+	
+}
+
+.section-header {
+	text-align: center;
+}
+
+section h2 {
+	margin: 20px 0 40px;
+}
+
+section h3 {
+	margin: 30px 0 10px;
+}
+
+#optin {
+	background: #3e4249;
+	padding: 20px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-size: 1.2em;
+}
+
+#optin p {
+	margin: 7px 0 0 0;
+}
+
+#who-benefits {
+	background: white;
+}
+
+#course-features {
+	background: #3e4249;
+	color: white;
+	text-align: center;
+}
+
+#project-features {
+	text-align: center;
+}
+
+#featurette {
+	background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+/* === CUSTOM ICON SPRITES === */
+
+i.ci {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: url('../img/icon-sprite.png') no-repeat;
+}
+
+.ci.ci-computer 	{background-position: 0 0;}
+.ci.ci-watch		{background-position: -40px 0;}
+.ci.ci-calendar		{background-position: -80px 0;}
+.ci.ci-community		{background-position: -120px 0;}
+.ci.ci-instructor		{background-position: -160px 0;}
+.ci.ci-device		{background-position: -200px 0;}
